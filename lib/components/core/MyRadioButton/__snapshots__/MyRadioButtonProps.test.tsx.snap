@@ -1,0 +1,181 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MyRadioButton renders correctly when selected 1`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": undefined,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "alignItems": "center",
+      "backgroundColor": "#E8F2FB",
+      "borderRadius": 8,
+      "flexDirection": "row",
+      "marginTop": 10,
+      "opacity": 1,
+      "paddingHorizontal": 16,
+      "paddingVertical": 8,
+    }
+  }
+>
+  <View
+    style={
+      [
+        {
+          "backgroundColor": "#FFFFFF",
+        },
+        {
+          "alignItems": "center",
+          "borderColor": "#0171CE",
+          "borderRadius": 12,
+          "borderWidth": 2,
+          "height": 24,
+          "justifyContent": "center",
+          "marginRight": 12,
+          "width": 24,
+        },
+      ]
+    }
+    testID="radio-outer-circle"
+  >
+    <View
+      style={
+        [
+          {
+            "backgroundColor": "#FFFFFF",
+          },
+          {
+            "backgroundColor": "#0171CE",
+            "borderRadius": 6,
+            "height": 12,
+            "width": 12,
+          },
+        ]
+      }
+      testID="radio-inner-circle"
+    />
+  </View>
+  <Text
+    style={
+      [
+        {
+          "fontSize": 16,
+          "lineHeight": 24,
+        },
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+      ]
+    }
+  >
+    Test Radio
+  </Text>
+</View>
+`;
+
+exports[`MyRadioButton renders correctly when unselected 1`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": undefined,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "alignItems": "center",
+      "borderRadius": 8,
+      "flexDirection": "row",
+      "marginTop": 10,
+      "opacity": 1,
+      "paddingHorizontal": 16,
+      "paddingVertical": 8,
+    }
+  }
+>
+  <View
+    style={
+      [
+        {
+          "backgroundColor": "#FFFFFF",
+        },
+        {
+          "alignItems": "center",
+          "borderColor": "#0171CE",
+          "borderRadius": 12,
+          "borderWidth": 2,
+          "height": 24,
+          "justifyContent": "center",
+          "marginRight": 12,
+          "width": 24,
+        },
+      ]
+    }
+    testID="radio-outer-circle"
+  />
+  <Text
+    style={
+      [
+        {
+          "fontSize": 16,
+          "lineHeight": 24,
+        },
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+      ]
+    }
+  >
+    Test Radio
+  </Text>
+</View>
+`;
